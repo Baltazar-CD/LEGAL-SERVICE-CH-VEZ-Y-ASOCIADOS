@@ -517,12 +517,12 @@ acompañamiento legal.</p>
                 <div style="align-self: center; align-items: center;" class="col col-lg-7 col-md-12 col-sm-12">
                     <div class="contact-content">
                         <div class="contact-form">
-                            <form name="contact" method="POST" data-netlify="true" class="contact-validation-active">
+                            <form action="enviado.html" name="contact" method="POST" data-netlify="true" class="contact-validation-active">
                                 <div class="half-col">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Tu nombre">
+                                    <input type="text" name="name" id="name" class="form-control" data-error="por favor, escriba su nombre" placeholder="Tu nombre" required="">
                                 </div>
                                 <div class="half-col">
-                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Tu teléfono">
+                                    <input type="text" name="phone" id="Phone" class="form-control" data-error="Por favor ingrese su telefono" placeholder="Tu teléfono" required="">
                                 </div>
                                 <div class="submit-btn-wrapper">
                                     <button type="submit" class="theme-btn">Cita</button>
