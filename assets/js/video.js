@@ -47,7 +47,7 @@ function initializeGamesCarousel () {
       "<div class='nav-button prev'><i class='fa fa-caret-left'></i></div>",
       "<div class='nav-button next'><i class='fa fa-caret-right'></i></div>"
     ],
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 7000,
     autoplayHoverPause: true,
     responsive: {      
@@ -147,7 +147,7 @@ function initializeVideoCarousel () {
     autoplaySpeed: 650, // Speed at which the slides change when autoplaying
     margin: 19, // Spacing between slide items
     autoWidth: true, // Let owl carousel handle with based on the container
-    autoplay: true, // Autoslide
+    autoplay: false, // Autoslide
     autoplayTimeout: 7000, // changes slides every 7 seconds
     autoplayHoverPause: true, // When hovering on a video pause the transition of slides
     startPosition: 'video_two', // Which video based of it's data-hash do you want the slid to start on
