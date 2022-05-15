@@ -4338,7 +4338,7 @@ Media Queries
 
 @media (max-width: 800px) {
   .video-carousel {
-    height: 297px;
+    height: 320px;
     padding: 14px 0;
   }
   .video-carousel .owl-carousel .owl-item .item {
@@ -4360,12 +4360,12 @@ Media Queries
 
 @media (max-width: 540px) {
   .video-carousel {
-    height: 278px;
+    height: 320px;
     padding: 8px 0;
   }
   
   .video-carousel .owl-carousel .owl-item .item {
-    width: 288px;
+    width: 320px;
   }
   
   .community-carousel,
