@@ -3891,7 +3891,7 @@ Video Carousel Styles
 
 .video-carousel .item video {
   height: 100%;
-  width: 600PX;
+  width: 100%;
 }
 
 .video-carousel .owl-carousel .owl-item {
