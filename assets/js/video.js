@@ -120,7 +120,7 @@ function initializeCommunityCarousel () {
       "<div class='nav-button prev'><i class='fa fa-caret-left'></i></div>",
       "<div class='nav-button next'><i class='fa fa-caret-right'></i></div>"
     ],
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 7000,
     autoplayHoverPause: true,
     startPosition: 'zero',
